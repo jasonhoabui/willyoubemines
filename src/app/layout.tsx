@@ -39,7 +39,7 @@ export default function RootLayout({
           <div className="w-full flex justify-center mt-auto pb-6">
             <footer className="text-center">
               <p className="text-gray-500 text-sm">
-                ©{new Date().getFullYear()} by Jason Bui
+                ©{new Date().getFullYear()} by jason bui
               </p>
             </footer>
           </div>
