@@ -20,8 +20,8 @@ export default function Yay() {
       <Image
         src="/images/uscat.jpg"
         alt="Cute Cat"
-        width={300}
-        height={300}
+        width={250}
+        height={250}
         className="mt-4"
       />
     </div>

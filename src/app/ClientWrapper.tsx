@@ -3,12 +3,12 @@
 import { usePathname } from 'next/navigation';
 import GoBack from './GoBack';
 
-export default function ClientWrapper({ children }: { children: React.ReactNode }) {
+const ClientWrapper = ({ children }: { children: React.ReactNode }) => {
   const pathname = usePathname();
 
   return (
     <>
-      {pathname !== '/' && (
+      {pathname === '/ask' && (
         <div className="absolute top-4 left-4">
           <GoBack />
         </div>
@@ -16,4 +16,6 @@ export default function ClientWrapper({ children }: { children: React.ReactNode 
       {children}
     </>
   );
-}
+};
+
+export default ClientWrapper;

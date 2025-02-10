@@ -57,11 +57,11 @@ const Home: React.FC = () => {
           <Image
             src="/images/smilecat.jpg"
             alt="Smile Cat"
-            width={300}
-            height={300}
+            width={450}
+            height={450}
             className="mb-4"
           />
-          <h1 className="text-2xl font-bold text-center transition-all duration-200 px-4">
+          <h1 className="text-xl font-bold text-center transition-all duration-200 px-4">
             {getCurrentMessage()}
           </h1>
         </div>

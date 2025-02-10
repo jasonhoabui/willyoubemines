@@ -17,11 +17,11 @@ export default function Home() {
         <Image
           src="/images/cutecat.gif"
           alt="Cute Cat"
-          width={500}
-          height={500}
+          width={450}
+          height={450}
           className="mb-4"
         />
-        <h1 className="text-2xl font-bold mb-4">
+        <h1 className="text-xl font-bold mb-4">
           annyeoongggg, i have something i wanna ask you...
         </h1>
         <p 

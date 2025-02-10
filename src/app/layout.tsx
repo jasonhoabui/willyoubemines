@@ -32,17 +32,15 @@ export default function RootLayout({
       </Head>
       <html lang="en">
         <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <ClientWrapper>{children}</ClientWrapper>
           <Analytics />
-          <div className="w-full flex justify-center mt-auto pb-6">
-            <footer className="text-center">
-              <p className="text-gray-500 text-sm">
-                ©{new Date().getFullYear()} by jason bui
-              </p>
-            </footer>
-          </div>
+          <footer className="text-center mt-4 pb-6">
+            <p className="text-gray-500 text-sm mt-4">
+              ©{new Date().getFullYear()} by jason bui
+            </p>
+          </footer>
         </body>
       </html>
     </>
