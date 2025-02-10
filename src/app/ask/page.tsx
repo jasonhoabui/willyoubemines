@@ -26,7 +26,7 @@ const Home: React.FC = () => {
     "is that your final answer? 😢",
     "my heart can't take this rejection",
     "please reconsider! 🙏",
-    "I'm not giving up on you!"
+    "i'm not giving up on you!"
   ];
 
   const getCurrentMessage = () => {
@@ -76,19 +76,19 @@ const Home: React.FC = () => {
             }}
             onClick={handleYesClick}
           >
-            Yes
+            yes
           </button>
           <button
             className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center bg-red-500 text-white text-sm h-12 px-5 hover:bg-red-600"
             style={isNoButtonMoving ? {
-              position: 'fixed',  // Changed to fixed
+              position: 'fixed',
               top: `${noPosition.top}px`,
               left: `${noPosition.left}px`,
               zIndex: 10
             } : {}}
             onClick={handleNoClick}
           >
-            No
+            no
           </button>
         </div>
       </div>
