@@ -1,3 +1,7 @@
+'use client'
+
+import Image from 'next/image';
+
 export default function Yay() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center gap-6">
@@ -13,6 +17,13 @@ export default function Yay() {
       <div className="text-3xl font-bold">
         location: a secret 🤩
       </div>
+      <Image
+        src="/images/uscat.jpg"
+        alt="Cute Cat"
+        width={300}
+        height={300}
+        className="mt-4"
+      />
     </div>
   );
 }
