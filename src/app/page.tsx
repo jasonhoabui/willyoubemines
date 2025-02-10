@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <> {/* Fragment ensures a valid JSX return */}
-      <div className="flex flex-col items-center justify-center min-h-screen relative">
+      <div className="flex flex-col items-center justify-center min-h-screen relative text-center">
         <Image
           src="/images/cutecat.gif"
           alt="Cute Cat"
@@ -21,7 +21,7 @@ export default function Home() {
           height={450}
           className="mb-4"
         />
-        <h1 className="text-xl font-bold mb-4">
+        <h1 className="text-xl font-bold mb-4 px-4">
           annyeoongggg, i have something i wanna ask you...
         </h1>
         <p 
