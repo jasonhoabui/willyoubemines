@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { useRouter } from 'next/navigation';
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const router = useRouter();
@@ -19,7 +20,7 @@ export default function Home() {
         height={500}
         className="mb-4"
       />
-      <h1 className="text-2xl font-bold mb-4">annyeoongggg ian, i have something i wanna ask you...</h1>
+      <h1 className="text-2xl font-bold mb-4">annyeoongggg, i have something i wanna ask you...</h1>
       <p 
         className="text-blue-500 cursor-pointer mb-4"
         onClick={handleClick}

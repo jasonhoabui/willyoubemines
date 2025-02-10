@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: 'Calibri', sans-serif;
 }
+
+@media (max-width: 768px) {
+  .min-h-screen {
+    padding-bottom: 16rem;
+  }
+}

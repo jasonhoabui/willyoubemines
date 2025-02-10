@@ -5,13 +5,13 @@ export default function Yay() {
         yay!! come on a legendary two man with me on
       </h1>
       <div className="text-6xl font-extrabold text-pink-500">
-        February 14, 2025
+        february 14, 2025
       </div>
       <div className="text-5xl font-bold">
-        9:00 PM
+        9:00 pm
       </div>
       <div className="text-3xl font-bold">
-        location TBA
+        location tba
       </div>
     </div>
   );
